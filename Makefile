@@ -1,6 +1,6 @@
 default: devel test
 
-devel: bin/buildout buildout-cache/downloads
+devel: bin/buildout
 	[ -f bin/develop ] && bin/develop up || true
 	bin/buildout -c devel.cfg
 
@@ -11,7 +11,7 @@ test:
 travis: travis_build
 
 travis_build: bin/buildout buildout-cache/downloads
-	bin/buildout -c buildout.cfg
+	bin/buildout -c travis.cfg
 
 bin/buildout: bin/python
 	bin/easy_install zc.buildout==1.6.3
