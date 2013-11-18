@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/plone-intranet/plone.intranet.suite.png)
+![Build Status](https://api.travis-ci.org/plone-intranet/plone.intranet.suite.png)
 
 plone.intranet.suite
 ====================
