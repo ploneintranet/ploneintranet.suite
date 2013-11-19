@@ -1,6 +1,6 @@
 [![Build Status](https://api.travis-ci.org/ploneintranet/ploneintranet.suite.png)](https://travis-ci.org/ploneintranet/ploneintranet.suite)
 
-plone.intranet.suite
+ploneintranet.suite
 ====================
 
 Pre-integrated Intranet suite for Plone

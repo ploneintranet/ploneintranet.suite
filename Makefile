@@ -5,7 +5,7 @@ devel: bin/buildout
 	bin/buildout -c devel.cfg
 
 test:
-	bin/test -s plone.intranet.suite
+	bin/test -s ploneintranet.suite
 	bin/flake8 src/plone
 
 travis: travis_build
