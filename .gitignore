@@ -32,7 +32,8 @@ nosetests.xml
 *.mo
 
 # sources
-src
+src/collective.workspace
+src/ploneintranet.workspace
 
 # Mr Developer
 .mr.developer.cfg
