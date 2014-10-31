@@ -1,6 +1,6 @@
-========================
-About this documentation
-========================
+====================
+About Plone Intranet
+====================
 
 .. toctree::
     :maxdepth: 2
