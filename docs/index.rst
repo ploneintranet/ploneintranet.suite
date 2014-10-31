@@ -28,10 +28,6 @@ Contents:
 
    appendices/index
 
-.. toctree::
-   :maxdepth: 2
-
-   about/index
 
 .. toctree::
    :maxdepth: 1
@@ -42,8 +38,7 @@ Contents:
 
 .. todo::
 
-    * add history
-    * add installation instructions
+    * update installation instructions to actually work!
     * include heroku deploy button by nejc under install/quickstart
     * Add a design/concept section
     * Collect current error messages and add them to the error refs doc
