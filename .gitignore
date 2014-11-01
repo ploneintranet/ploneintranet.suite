@@ -38,3 +38,12 @@ src
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Local buildout config
+local.cfg
+
+# man page for node, when installed via nodeenv
+share
+
+# zc.async file
+uuid.txt
