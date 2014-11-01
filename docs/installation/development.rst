@@ -10,6 +10,8 @@ Development Install
 We assume you want to do some work on ploneintranet. Here is what you need
 to do to get yourself set up.
 
+* Install the normal OS-level packages you need to build Plone.
+  Additionally, you'll need (on Ubuntu): libenchant-dev.
 * Clone the repository from https://github.com/ploneintranet/ploneintranet.suite
 * Create a virtualenv `virtualenv-2.7 --no-site-packages .`
 * Run bootstrap `bin/python-2.7 bootstrap.py
