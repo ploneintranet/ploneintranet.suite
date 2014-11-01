@@ -16,7 +16,7 @@ to do to get yourself set up.
   * on Mac OSX: to be documented. See http://stackoverflow.com/questions/3683181/cannot-install-pyenchant-on-osx
 * Clone the repository from https://github.com/ploneintranet/ploneintranet.suite
 * Create a virtualenv `virtualenv-2.7 --no-site-packages .`
-* Run bootstrap `bin/python-2.7 bootstrap.py
+* Run bootstrap `bin/python-2.7 bootstrap.py -c dev.cfg -v 1.6.3  # matching the current version pin!
 * run buildout `bin/buildout -c dev.cfg`
 
 While we are still in development mode and don't have eggs released, you
