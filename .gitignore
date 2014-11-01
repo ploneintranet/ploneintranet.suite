@@ -67,3 +67,7 @@ src/plonesocial.core/
 src/plonesocial.messaging/
 src/plonesocial.microblog/
 src/plonesocial.network/
+# misc
+uuid.txt
+README.txt
+htmlcov/
