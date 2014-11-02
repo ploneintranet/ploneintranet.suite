@@ -1,5 +1,5 @@
-License for Plone Documentation
-===============================
+License for Plone Intranet Documentation
+========================================
 
 Plone Intranet Documentation by `Plone Foundation <http://plone.org>`_ is licensed under a `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0/>`_.
 

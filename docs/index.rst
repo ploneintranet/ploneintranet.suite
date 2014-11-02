@@ -15,19 +15,27 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   installation/index
+
+.. toctree::
+   :maxdepth: 2
+
+   communication
+
+.. toctree::
+   :maxdepth: 2
+
    about/index
 
 .. toctree::
    :maxdepth: 2
 
-   installation/index
-
+   documentation/index
 
 .. toctree::
    :maxdepth: 2
 
    appendices/index
-
 
 .. toctree::
    :maxdepth: 1

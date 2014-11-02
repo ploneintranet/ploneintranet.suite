@@ -4,7 +4,7 @@ Rest Styleguide
 
 .. admonition:: Description
 
-   How to write content for the Plone Documentation.
+   How to write content for the Plone Intranet Documentation.
 
 .. contents:: :local:
 
@@ -12,7 +12,7 @@ Introduction
 ============
 
 This chapter explains the basics of editing, and updating to
-the *Plone Documentation*.
+the *Plone Intranet Documentation*.
 
 
 .. note::
