@@ -8,7 +8,7 @@ Plone Intranet Documentation
 
 This is the central point for documentation on Plone Intranet. It is maintained by the Plone Intranet Consortium. If you are interested in background information and context of the project, we invite you to have a look at the history.
 
-You can easily - and are very welcome to - contribute to this documentation.
+You can easily - and are very welcome to - contribute to this documentation. Just make a pull request, we'll merge as quick as we can.
 
 Contents:
 
