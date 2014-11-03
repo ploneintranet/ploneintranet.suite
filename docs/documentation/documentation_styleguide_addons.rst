@@ -51,7 +51,7 @@ Breaking sentences with linebreaks would mean a translator will only see part of
 Styleguide
 ==========
 
-* All documentation should be written in **valid** `ReStructuredText <http://docutils.sourceforge.net/rst.html>`_  There are some :doc:`helper_tools` available.
+* All documentation should be written in **valid** `ReStructuredText <http://docutils.sourceforge.net/rst.html>`_  There are some `helper tools <http://docs.plone.org/about/helper_tools.html>`_ available.
 * All documentation should be in the folder */docs/source*
 * It's good practice to have a README.rst and a CHANGES.rst file in the top level of your package. If you want that information to also be available in the documentation on docs.plone.org, you should move those files into the /docs/source directory, and then make a symlink in the root of your package. Don't forget to update setup.py if you're using these files as long_description!!
 * that README.rst should just contain a **short** description of your package, what it does, and the requirements. Do **not** put your entire documentation in it.
@@ -72,40 +72,40 @@ This is an example of how a README(.rst) should look like:
 
     collective.fancystuff will make your Plone site more fancy.
     It can do cool things, and will make the task of keeping your site fancy a lot easier.
-    
-    The main audience for this are people who run a chocolate factory. 
+
+    The main audience for this are people who run a chocolate factory.
     But it also is useful for organisations planning on world domination.
-    
-    
+
+
     Features
     --------
 
     - Be awesome
     - Make things fancier
     - Works out of the box, but can also be customized. After installation, you will find a new item in your site control panel where to set various options.
-    
-    
+
+
     Examples
     --------
-    
+
     This add-on can be seen in action at the following sites:
     - http://fancysite.com
     - http://fluffystuff.org
-    
-    
+
+
     Documentation
     -------------
-    
+
     Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-    
-    
+
+
     Translations
     ------------
-    
-    This product has been translated into 
-    
+
+    This product has been translated into
+
     - Klingon (thanks, K'Plai)
-    
+
 
     Installation
     ------------
@@ -113,16 +113,16 @@ This is an example of how a README(.rst) should look like:
     Install collective.fancystuff by adding it to your buildout:
 
        [buildout]
- 
+
         ...
-    
-        eggs = 
+
+        eggs =
             collective.fancystuff
-    
-        
+
+
     and then running "bin/buildout"
 
-    
+
 
     Contribute
     ----------

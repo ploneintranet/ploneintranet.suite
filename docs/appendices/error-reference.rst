@@ -6,7 +6,7 @@ Error Reference
         Common Python exception traceback patterns you may encounter when
         working with Plone Intranet and possible solutions for them.
 
-        Please see :doc:`this tutorial <http://docs.plone.org/manage/troubleshooting/basic>` for extracting
+        Please see `this tutorial <http://docs.plone.org/manage/troubleshooting/basic>` for extracting
         Python tracebacks from your Plone logs.
 
 Add-on installer error: This object was originally created by a product that is no longer installed
