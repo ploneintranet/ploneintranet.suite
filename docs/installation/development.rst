@@ -29,8 +29,9 @@ To install Enchant library on OSX using brew. Alternatively see the
 Set-up a development environment::
 
     git clone https://github.com/ploneintranet/ploneintranet.suite
+    cd ploneintranet.suite
     virtualenv --no-site-packages ploneintranet.suite
-    bin/python-2.7 bootstrap.py -c dev.cfg -v 1.6.3  # matching the current version pin!
+    bin/python2.7 bootstrap.py -c dev.cfg -v 1.6.3  # matching the current version pin!
     bin/buildout -c dev.cfg
 
 While we are still in development mode and don't have eggs released, you
