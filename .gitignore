@@ -32,7 +32,6 @@ nosetests.xml
 *.mo
 
 # sources
-src
 
 # Mr Developer
 .mr.developer.cfg
@@ -50,3 +49,21 @@ uuid.txt
 
 # docker usage will create .ssh/known_hosts
 .ssh
+
+# must declare src directories explicitly
+# because we want ploneintranet.suite not to be ignored
+src/collective.celery/
+src/plone.recipe.codeanalysis/
+src/ploneintranet.async/
+src/ploneintranet.attachments/
+src/ploneintranet.docconv.client/
+src/ploneintranet.documentviewer/
+src/ploneintranet.invitations/
+src/ploneintranet.simplesharing/
+src/ploneintranet.theme/
+src/ploneintranet.workspace/
+src/plonesocial.activitystream/
+src/plonesocial.core/
+src/plonesocial.messaging/
+src/plonesocial.microblog/
+src/plonesocial.network/
