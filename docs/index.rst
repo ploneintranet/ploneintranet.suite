@@ -35,6 +35,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   development/index
+
+.. toctree::
+   :maxdepth: 2
+
    appendices/index
 
 .. toctree::
