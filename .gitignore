@@ -47,3 +47,6 @@ share
 
 # zc.async file
 uuid.txt
+
+# docker usage will create .ssh/known_hosts
+.ssh
