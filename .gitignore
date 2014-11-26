@@ -53,15 +53,17 @@ uuid.txt
 # must declare src directories explicitly
 # because we want ploneintranet.suite not to be ignored
 src/collective.celery/
-src/plone.recipe.codeanalysis/
 src/ploneintranet.async/
 src/ploneintranet.attachments/
 src/ploneintranet.docconv.client/
 src/ploneintranet.documentviewer/
 src/ploneintranet.invitations/
+src/ploneintranet.notifications/
+src/ploneintranet.readstatus/
 src/ploneintranet.simplesharing/
 src/ploneintranet.theme/
 src/ploneintranet.workspace/
+src/plone.recipe.codeanalysis/
 src/plonesocial.activitystream/
 src/plonesocial.core/
 src/plonesocial.messaging/
