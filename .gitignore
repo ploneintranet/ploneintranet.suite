@@ -59,7 +59,7 @@ src/ploneintranet.docconv.client/
 src/ploneintranet.documentviewer/
 src/ploneintranet.invitations/
 src/ploneintranet.notifications/
-src/ploneintranet.readstatus/
+src/ploneintranet.todo/
 src/ploneintranet.simplesharing/
 src/ploneintranet.theme/
 src/ploneintranet.workspace/
