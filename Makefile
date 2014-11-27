@@ -5,16 +5,17 @@ default: devel
 # http://askubuntu.com/questions/477551/how-can-i-use-docker-without-sudo
 
 docker-build:
-	docker build -t $(PROJECT) .
+	docker.io build -t $(PROJECT) .
 
 # re-uses ssh agent
 # presupposes your buildout cache is in /var/tmp as configured in .buildout
 # also loads your standard .bashrc
 docker-run:
-	docker run -i -t \
+	docker.io run -i -t \
 		--net=host \
 		-v $(SSH_AUTH_SOCK):/tmp/auth.sock \
 		-v $(HOME)/.gitconfig:/.gitconfig \
+		-v $(HOME)/.gitignore:/.gitignore \
 		-v /var/tmp:/var/tmp \
 		-v $(HOME)/.bashrc:/.bashrc \
 		-v $(HOME)/.buildout:/.buildout \
