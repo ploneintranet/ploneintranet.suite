@@ -36,3 +36,6 @@ bin/buildout: bin/python2.7
 
 bin/python2.7:
 	@virtualenv --clear -p python2.7 .
+
+clean:
+	rm bin/* .installed.cfg || true
