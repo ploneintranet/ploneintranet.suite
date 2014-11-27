@@ -5,6 +5,5 @@ run apt-get install -y python-dev gcc make zlib1g-dev libjpeg-dev python-virtual
 run apt-get install -y libfreetype6-dev gettext python-pip libxslt1-dev python-lxml
 run apt-get install -y jed
 run useradd -m -d /app app
-run echo ploneintranet > /etc/debian_chroot
+run echo ploneintranet.suite > /etc/debian_chroot
 cmd ["/bin/bash"]
-EXPOSE 8080
