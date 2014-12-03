@@ -19,6 +19,8 @@ develop-eggs
 lib
 lib64
 __pycache__
+buildout-cache/
+local/
 
 # Installer logs
 pip-log.txt
@@ -73,3 +75,4 @@ src/plonesocial.network/
 uuid.txt
 README.txt
 htmlcov/
+
