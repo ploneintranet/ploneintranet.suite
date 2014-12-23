@@ -10,7 +10,7 @@ This is the integration package for the Plone Intranet suite. It is a work in pr
  * Dependencies on individual ploneintranet packages
  * User story testing
 
-For more information, please look at the documentation in docs/.
+For more information, please look at the documentation on docs.ploneintranet.org_.
 
 Copyright (c) Plone Foundation
 ------------------------------
@@ -28,3 +28,4 @@ If you're `listed on Github`_ as a member of the Plone organization, you already
 .. _OSI-approved license: http://opensource.org/licenses
 .. _contributor agreement: https://plone.org/foundation/contributors-agreement
 .. _listed on Github: https://github.com/orgs/plone/people
+.. _docs.ploneintranet.org: http://docs.ploneintranet.org
