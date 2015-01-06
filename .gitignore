@@ -71,6 +71,8 @@ src/plonesocial.core/
 src/plonesocial.messaging/
 src/plonesocial.microblog/
 src/plonesocial.network/
+src/zope.testrunner/
+
 # misc
 uuid.txt
 README.txt
