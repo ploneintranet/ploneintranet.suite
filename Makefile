@@ -27,6 +27,38 @@ docker-run:
 devel: bin/buildout
 	bin/buildout -c dev.cfg
 
+PACKAGES=collective.celery ploneintranet.attachments ploneintranet.docconv.client ploneintranet.documentviewer ploneintranet.invitations ploneintranet.notifications ploneintranet.todo ploneintranet.simplesharing ploneintranet.theme ploneintranet.workspace plonesocial.activitystream plonesocial.core plonesocial.messaging plonesocial.microblog plonesocial.network zope.testrunner
+
+fetch: 
+	@echo "=================== $@ ======================="
+	@for p in $(PACKAGES) ; \
+		do ( echo '---'; echo "$$p... " && cd src/$$p && git $@; ); \
+	done
+	@echo '---'
+	@echo -n 'ploneintranet.suite... '
+	@git $@
+	@echo
+
+status: fetch
+	@echo "=================== $@ ======================="
+	@for p in $(PACKAGES) ; \
+		do ( echo '---'; echo "$$p... " && cd src/$$p && git $@; ); \
+	done
+	@echo '---'
+	@echo -n 'ploneintranet.suite... '
+	@git $@
+	@echo
+
+pull:
+	@echo "=================== $@ ======================="
+	@for p in $(PACKAGES) ; \
+		do ( echo '---'; echo "$$p... " && cd src/$$p && git $@; ); \
+	done
+	@echo '---'
+	@echo -n 'ploneintranet.suite... '
+	@git $@
+	@echo
+
 ### helper targets ###
 
 bin/buildout: bin/python2.7
