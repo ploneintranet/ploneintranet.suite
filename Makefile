@@ -49,7 +49,7 @@ status: fetch
 	@git $@
 	@echo
 
-pull:
+pull: master
 	@echo "=================== $@ ======================="
 	@for p in $(PACKAGES) ; \
 		do ( echo '---'; echo "$$p... " && cd src/$$p && git $@; ); \
@@ -57,6 +57,16 @@ pull:
 	@echo '---'
 	@echo -n 'ploneintranet.suite... '
 	@git $@
+	@echo
+
+master:
+	@echo "=================== $@ ======================="
+	@for p in $(PACKAGES) ; \
+		do ( echo '---'; echo "$$p... " && cd src/$$p && git checkout $@; ); \
+	done
+	@echo '---'
+	@echo -n 'ploneintranet.suite... '
+	@git checkout $@
 	@echo
 
 ### helper targets ###
