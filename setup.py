@@ -40,7 +40,6 @@ setup(name='ploneintranet.suite',
           # -*- Extra requirements: -*-
           'Plone',
           'collective.celery',
-          'ploneintranet.async',
           'ploneintranet.simplesharing',
           'ploneintranet.workspace',
           'ploneintranet.theme',
