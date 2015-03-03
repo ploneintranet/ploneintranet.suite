@@ -74,6 +74,9 @@ src/plonesocial.microblog/
 src/plonesocial.network/
 src/zope.testrunner/
 
+# editor tmp files
+.*.sw[op]
+
 # misc
 uuid.txt
 README.txt
