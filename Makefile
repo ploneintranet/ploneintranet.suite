@@ -30,8 +30,8 @@ devel: bin/buildout
 test:
 # this works only in docker, setting HOME to enable Firefox to write it's profile
 # if you want to see test failures, use DISPLAY=:0 instead
-	Xvfb :99 1>/dev/null 2>&1 & HOME=/app DISPLAY=:99 bin/test
-	killall Xvfb
+	Xvfb :99 1>/dev/null 2>&1 & HOME=/app DISPLAY=:99 bin/test || true
+	@ps | grep Xvfb | grep -v grep | awk '{print $2}' | xargs kill 2>/dev/null
 
 PACKAGES=collective.celery ploneintranet.attachments ploneintranet.docconv.client ploneintranet.documentviewer ploneintranet.invitations ploneintranet.notifications ploneintranet.todo ploneintranet.simplesharing ploneintranet.theme ploneintranet.workspace plonesocial.activitystream plonesocial.core plonesocial.messaging plonesocial.microblog plonesocial.network zope.testrunner
 
