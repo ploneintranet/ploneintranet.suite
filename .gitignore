@@ -49,8 +49,11 @@ share
 # zc.async file
 uuid.txt
 
-# docker usage will create .ssh/known_hosts
+# docker usage 
 .ssh
+.bash_history
+.cache
+.mozilla
 
 # must declare src directories explicitly
 # because we want ploneintranet.suite not to be ignored
