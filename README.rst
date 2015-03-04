@@ -1,4 +1,6 @@
-[![Build Status](https://api.travis-ci.org/ploneintranet/ploneintranet.suite.png)](https://travis-ci.org/ploneintranet/ploneintranet.suite)
+.. image:: https://api.travis-ci.org/ploneintranet/ploneintranet.suite.png
+   :alt: Build Status
+   :target: https://travis-ci.org/ploneintranet/ploneintranet.suite
 
 ploneintranet.suite
 ====================
