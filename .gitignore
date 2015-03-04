@@ -78,4 +78,7 @@ src/zope.testrunner/
 uuid.txt
 README.txt
 htmlcov/
-
+.floo*
+celerydb.sqlite
+celeryresults.sqlite
+pip-selfcheck.json
