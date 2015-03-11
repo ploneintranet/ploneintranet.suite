@@ -76,6 +76,7 @@ src/plonesocial.messaging/
 src/plonesocial.microblog/
 src/plonesocial.network/
 src/zope.testrunner/
+src/slc.docconv
 
 # editor tmp files
 .*.sw[op]
