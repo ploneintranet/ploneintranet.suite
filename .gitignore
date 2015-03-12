@@ -49,7 +49,7 @@ share
 # zc.async file
 uuid.txt
 
-# docker usage 
+# docker usage
 .ssh
 .bash_history
 .cache
