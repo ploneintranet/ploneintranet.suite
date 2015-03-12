@@ -49,7 +49,7 @@ share
 # zc.async file
 uuid.txt
 
-# docker usage 
+# docker usage
 .ssh
 .bash_history
 .cache
@@ -76,8 +76,9 @@ src/plonesocial.messaging/
 src/plonesocial.microblog/
 src/plonesocial.network/
 src/zope.testrunner/
-src/slc.docconv
-
+src/ploneintranet.docs/
+src/slc.docconv/
+src/sphinx.themes.plone/
 # editor tmp files
 .*.sw[op]
 
