@@ -3,23 +3,22 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD = /Users/pilz/dev/ploneintranet.suite/bin/sphinx-build
+SPHINXBUILD   = ../bin/sphinx-build
 PAPER         =
-BUILDDIR      = /Users/pilz/dev/ploneintranet.suite/docs
+BUILDDIR      = build
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) /Users/pilz/dev/ploneintranet.suite/docs
+ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
-I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) /Users/pilz/dev/ploneintranet.suite/docs
+I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 
 .PHONY: help clean html dirhtml singlehtml pickle json htmlhelp qthelp devhelp epub latex latexpdf text man changes linkcheck doctest gettext
 
 help:
 	@echo "Please use \`make <target>' where <target> is one of"
 	@echo "  html       to make standalone HTML files"
-	@echo "  warnings-html to make standalone HTML files (warnings become errors)"
 	@echo "  dirhtml    to make HTML files named index.html in directories"
 	@echo "  singlehtml to make a single large HTML file"
 	@echo "  pickle     to make pickle files"
@@ -44,11 +43,6 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
-	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
-
-warnings-html:
-	$(SPHINXBUILD) -W -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
@@ -83,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/sphinxbuilder.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/PloneIntranet.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/sphinxbuilder.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/PloneIntranet.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/sphinxbuilder"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/sphinxbuilder"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/PloneIntranet"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/PloneIntranet"
 	@echo "# devhelp"
 
 epub:
